@@ -1,0 +1,82 @@
+########################################
+# Python / FastAPI
+########################################
+_pycache_/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+.env
+.env.*
+.env.local
+
+########################################
+# FastAPI runtime
+########################################
+*.log
+logs/
+storage/
+uploads/
+
+########################################
+# SQLAlchemy / Alembic
+########################################
+alembic/versions/*.pyc
+alembic/versions/_pycache_/
+
+########################################
+# Playwright / Chromium (future)
+########################################
+.playwright/
+ms-playwright/
+
+########################################
+# Jupyter / Experiments
+########################################
+.ipynb_checkpoints/
+
+########################################
+# Node / React / Vite
+########################################
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+.eslintcache
+*.log
+
+########################################
+# Frontend env
+########################################
+frontend/.env
+frontend/.env.*
+frontend/dist/
+
+########################################
+# VS Code
+########################################
+.vscode/
+!.vscode/settings.json
+
+########################################
+# OS specific
+########################################
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+
+########################################
+# Temporary / backup files
+########################################
